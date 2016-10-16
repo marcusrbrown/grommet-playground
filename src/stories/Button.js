@@ -1,4 +1,5 @@
 import React from 'react';
+import { storiesOf, action, linkTo } from '@kadira/storybook';
 
 const buttonStyles = {
   border: '1px solid #eee',
@@ -23,5 +24,13 @@ Button.propTypes = {
   children: React.PropTypes.string.isRequired,
   onClick: React.PropTypes.func,
 };
+
+storiesOf('Button', module)
+  .add('with text', () => (
+    <Button onClick={action('clicked')}>Hello Button</Button>
+  ))
+  .add('with some emoji', () => (
+    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
+  ));
 
 export default Button;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { storiesOf, linkTo } from '@kadira/storybook';
 
 const styles = {
   main: {
@@ -47,6 +48,11 @@ storiesOf('App', module)
     &lt;App /&gt;
   ))
 `;
+
+storiesOf('Welcome', module)
+  .add('to Storybook', () => (
+    <Welcome showApp={linkTo('Button')}/>
+  ));
 
 export default class Welcome extends React.Component {
   showApp(e) {

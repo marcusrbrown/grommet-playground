@@ -1,36 +1,17 @@
 import React from 'react';
-import { storiesOf, action, linkTo } from '@kadira/storybook';
+import Button from 'grommet/components/Button';
+import { storiesOf, action } from '@kadira/storybook';
 
-const buttonStyles = {
-  border: '1px solid #eee',
-  borderRadius: 3,
-  backgroundColor: '#FFFFFF',
-  cursor: 'pointer',
-  fontSize: 15,
-  padding: '3px 10px',
-  margin: 10,
-};
+const stories = [
+  {
+    title: 'default',
+    render() {
+      return <Button label="Button" onClick={action('clicked')} />
+    }
+  }
+];
 
-const Button = ({ children, onClick }) => (
-  <button
-    style={buttonStyles}
-    onClick={onClick}
-  >
-    {children}
-  </button>
-);
-
-Button.propTypes = {
-  children: React.PropTypes.string.isRequired,
-  onClick: React.PropTypes.func,
-};
-
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
-  ));
-
-export default Button;
+stories.forEach(story => {
+  storiesOf('Grommet: Button', module)
+    .add(story.title, () => story.render());
+});

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import Main from './components/Main';
+import 'grommet/grommet.min.css';
 
 ReactDOM.render(
-  <App />,
+  <Main />,
   document.getElementById('root')
 );

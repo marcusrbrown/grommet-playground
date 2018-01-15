@@ -5423,9 +5423,9 @@ react-modal@^1.2.0, react-modal@^1.2.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scripts@0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-0.8.2.tgz#54ccea3b7a6110eb699d46549c6ea7338d9855d2"
+react-scripts@0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-0.8.3.tgz#96c7d45f57eca5f00415c53fda27ef9a36566580"
   dependencies:
     autoprefixer "6.5.1"
     babel-core "6.17.0"
@@ -5468,7 +5468,7 @@ react-scripts@0.8.2:
     webpack "1.14.0"
     webpack-dev-server "1.16.2"
     webpack-manifest-plugin "1.1.0"
-    webpack-subresource-integrity "0.7.0"
+    webpack-subresource-integrity "0.8.1"
     whatwg-fetch "1.0.0"
   optionalDependencies:
     fsevents "1.0.14"
@@ -6732,9 +6732,9 @@ webpack-sources@^0.1.0:
     source-list-map "~0.1.7"
     source-map "~0.5.3"
 
-webpack-subresource-integrity@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-0.7.0.tgz#1ab08d7f94236459ed2882cbfd33bdedf79060c1"
+webpack-subresource-integrity@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-0.8.1.tgz#51f290f5996ee94cd1f518198a9b421a17d2191e"
   dependencies:
     webpack-core "^0.6.8"
 

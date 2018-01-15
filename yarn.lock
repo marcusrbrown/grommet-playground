@@ -1666,11 +1666,7 @@ capture-stack-trace@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.0.tgz#4a6fa07399c26bba47f0b2496b4d0fb408c5550d"
 
-case-sensitive-paths-webpack-plugin@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.0.0.tgz#60142d7d0beabdb35676ef0aeace3027da0578ba"
-
-case-sensitive-paths-webpack-plugin@^1.1.2:
+case-sensitive-paths-webpack-plugin@1.1.4, case-sensitive-paths-webpack-plugin@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-1.1.4.tgz#8aaedd5699a86cac2b34cf40d9b4145758978472"
 
@@ -2657,7 +2653,7 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-react-app@^1.0.1:
+eslint-config-react-app@^1.0.2:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-1.0.5.tgz#98337597bc01cc22991fcbdda07451f3b4511718"
 
@@ -5982,7 +5978,7 @@ react-desc@^1.0.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/react-desc/-/react-desc-1.4.1.tgz#99beddf7be2575902d159e919408d118823cc78b"
 
-react-dev-utils@^1.0.2:
+react-dev-utils@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-1.0.3.tgz#ff52a616e1d3aad388ad76aaa888cc4e10387537"
   dependencies:
@@ -6053,7 +6049,7 @@ react-dom@^15.3.2:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-error-overlay@^1.0.2:
+react-error-overlay@^1.0.3:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-1.0.10.tgz#da8cd1eafac41afdca2a33792b23694ef6c528f1"
   dependencies:
@@ -6131,9 +6127,9 @@ react-modal@^1.2.0, react-modal@^1.2.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scripts@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.2.tgz#20afe9a84d5f05d9338bebb143648f6ce877bc67"
+react-scripts@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.3.tgz#0fe04dd43b359495d568be6e9342b5c0cad8763c"
   dependencies:
     autoprefixer "7.1.0"
     babel-core "6.24.1"
@@ -6142,14 +6138,14 @@ react-scripts@1.0.2:
     babel-loader "7.0.0"
     babel-preset-react-app "^3.0.0"
     babel-runtime "6.23.0"
-    case-sensitive-paths-webpack-plugin "2.0.0"
+    case-sensitive-paths-webpack-plugin "1.1.4"
     chalk "1.1.3"
     connect-history-api-fallback "1.3.0"
     cross-spawn "4.0.2"
     css-loader "0.28.1"
     dotenv "4.0.0"
     eslint "3.19.0"
-    eslint-config-react-app "^1.0.1"
+    eslint-config-react-app "^1.0.2"
     eslint-loader "1.7.1"
     eslint-plugin-flowtype "2.33.0"
     eslint-plugin-import "2.2.0"
@@ -6164,8 +6160,8 @@ react-scripts@1.0.2:
     postcss-flexbugs-fixes "3.0.0"
     postcss-loader "2.0.5"
     promise "7.1.1"
-    react-dev-utils "^1.0.2"
-    react-error-overlay "^1.0.2"
+    react-dev-utils "^1.0.3"
+    react-error-overlay "^1.0.3"
     style-loader "0.17.0"
     sw-precache-webpack-plugin "0.9.1"
     url-loader "0.5.8"

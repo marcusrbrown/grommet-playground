@@ -473,13 +473,14 @@ babel-core@^6.0.0, babel-core@^6.11.4, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-eslint@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.0.0.tgz#54e51b4033f54ac81326ecea4c646a779935196d"
+babel-eslint@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.1.1.tgz#8a6a884f085aa7060af69cfc77341c2f99370fb2"
   dependencies:
+    babel-code-frame "^6.16.0"
     babel-traverse "^6.15.0"
     babel-types "^6.15.0"
-    babylon "^6.11.2"
+    babylon "^6.13.0"
     lodash.pickby "^4.6.0"
 
 babel-generator@^6.17.0, babel-generator@^6.18.0, babel-generator@^6.26.0:
@@ -1279,7 +1280,7 @@ babel-types@^6.15.0, babel-types@^6.16.0, babel-types@^6.18.0, babel-types@^6.19
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@^6.11.0, babylon@^6.11.2, babylon@^6.18.0:
+babylon@^6.11.0, babylon@^6.13.0, babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
@@ -5319,7 +5320,7 @@ react-desc@^1.0.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/react-desc/-/react-desc-1.4.1.tgz#99beddf7be2575902d159e919408d118823cc78b"
 
-react-dev-utils@^0.4.1:
+react-dev-utils@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-0.4.2.tgz#ba6fae581fe945a2fc402e9b27c71fda4f62f6a1"
   dependencies:
@@ -5423,13 +5424,13 @@ react-modal@^1.2.0, react-modal@^1.2.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scripts@0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-0.8.3.tgz#96c7d45f57eca5f00415c53fda27ef9a36566580"
+react-scripts@0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-0.8.4.tgz#6c41a0ffb76985359fec3cf641ae7e788d905883"
   dependencies:
     autoprefixer "6.5.1"
     babel-core "6.17.0"
-    babel-eslint "7.0.0"
+    babel-eslint "7.1.1"
     babel-jest "17.0.2"
     babel-loader "6.2.7"
     babel-preset-react-app "^2.0.1"
@@ -5460,7 +5461,7 @@ react-scripts@0.8.3:
     path-exists "2.1.0"
     postcss-loader "1.0.0"
     promise "7.1.1"
-    react-dev-utils "^0.4.1"
+    react-dev-utils "^0.4.2"
     recursive-readdir "2.1.0"
     strip-ansi "3.0.1"
     style-loader "0.13.1"
@@ -5468,7 +5469,6 @@ react-scripts@0.8.3:
     webpack "1.14.0"
     webpack-dev-server "1.16.2"
     webpack-manifest-plugin "1.1.0"
-    webpack-subresource-integrity "0.8.1"
     whatwg-fetch "1.0.0"
   optionalDependencies:
     fsevents "1.0.14"
@@ -6674,7 +6674,7 @@ webidl-conversions@^4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
 
-webpack-core@^0.6.8, webpack-core@~0.6.9:
+webpack-core@~0.6.9:
   version "0.6.9"
   resolved "https://registry.yarnpkg.com/webpack-core/-/webpack-core-0.6.9.tgz#fc571588c8558da77be9efb6debdc5a3b172bdc2"
   dependencies:
@@ -6731,12 +6731,6 @@ webpack-sources@^0.1.0:
   dependencies:
     source-list-map "~0.1.7"
     source-map "~0.5.3"
-
-webpack-subresource-integrity@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-0.8.1.tgz#51f290f5996ee94cd1f518198a9b421a17d2191e"
-  dependencies:
-    webpack-core "^0.6.8"
 
 webpack@1.14.0:
   version "1.14.0"

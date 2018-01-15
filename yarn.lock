@@ -6144,9 +6144,9 @@ react-modal@^1.2.0, react-modal@^1.2.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scripts@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.8.tgz#8de4ba02c82417a1695f2260ea95335d3c8df8e9"
+react-scripts@1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.9.tgz#76e908fb30f68dfbf8d5444f98bf46f4060ca2cf"
   dependencies:
     autoprefixer "7.1.1"
     babel-core "6.25.0"

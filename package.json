@@ -2,6 +2,10 @@
   "name": "grommet-playground",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igetgames/grommet-playground"
+  },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.9",
     "@storybook/addon-links": "^3.3.9",

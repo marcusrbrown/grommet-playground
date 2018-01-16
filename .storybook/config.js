@@ -18,7 +18,8 @@ addDecorator(story => (
 ));
 
 setOptions({
-  name: `${Package.name} ${Package.version}`
+  name: `${Package.name} ${Package.version}`,
+  url: Package.repository.url
 });
 
 configure(loadStories, module);

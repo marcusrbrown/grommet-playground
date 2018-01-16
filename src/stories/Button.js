@@ -13,37 +13,37 @@ const stories = [
   {
     title: 'Default',
     render() {
-      return <Button {...commonProps} />
+      return <Button {...commonProps} />;
     }
   },
   {
     title: 'Primary',
     render() {
-      return <Button {...commonProps} primary />
+      return <Button {...commonProps} primary />;
     }
   },
   {
     title: 'Secondary',
     render() {
-      return <Button {...commonProps} secondary />
+      return <Button {...commonProps} secondary />;
     }
   },
   {
     title: 'Accent',
     render() {
-      return <Button {...commonProps} accent />
+      return <Button {...commonProps} accent />;
     }
   },
   {
     title: 'Disabled',
     render() {
-      return <Button label="Button" />
+      return <Button label="Button" />;
     }
   },
   {
     title: 'Icon',
     render() {
-      return <Button {...commonProps} label="" icon={<Apps />} />
+      return <Button {...commonProps} label="" icon={<Apps />} />;
     }
   }
 ];

@@ -21,6 +21,10 @@
     global "^4.3.2"
     prop-types "^15.5.10"
 
+"@storybook/addon-options@^3.3.9":
+  version "3.3.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.3.9.tgz#8dca85ae5c6713ca13bead0e8c39b23c7e2138c0"
+
 "@storybook/addons@^3.3.9":
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.3.9.tgz#356ce7f1de892d88ca4bc5f686d06e07dd8c2108"

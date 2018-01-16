@@ -3669,7 +3669,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-grommet@^1.0.0:
+grommet@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/grommet/-/grommet-1.9.0.tgz#2edc4e5b3724cec7b51978f3a881f36fc4692064"
   dependencies:

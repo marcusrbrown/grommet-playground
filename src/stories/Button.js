@@ -1,7 +1,8 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import Button from 'grommet/components/Button';
-import { Apps } from 'grommet/index-icons';
-import { storiesOf, action } from '@kadira/storybook';
+import Apps from 'grommet/components/icons/base/Apps';
 
 const commonProps = {
   label: 'Button',

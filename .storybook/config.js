@@ -1,11 +1,11 @@
-import { configure, addDecorator } from '@kadira/storybook';
 import React from 'react';
+import { configure, addDecorator } from '@storybook/react';
 import App from 'grommet/components/App';
 import Article from 'grommet/components/Article';
 import Box from 'grommet/components/Box';
 
 function loadStories() {
-  require('../stories');
+  require('../src/stories');
 }
 
 addDecorator(story => (

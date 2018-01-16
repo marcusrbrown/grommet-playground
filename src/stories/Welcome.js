@@ -1,5 +1,6 @@
 import React from 'react';
-import { storiesOf, linkTo } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { linkTo } from '@storybook/addon-links';
 
 const styles = {
   main: {

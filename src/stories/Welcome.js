@@ -76,20 +76,20 @@ export default class Welcome extends React.Component {
           (Basically a story is like a visual test case.)
         </p>
         <p>
-          See these sample <a style={styles.link} href='#' onClick={this.showApp.bind(this)}>stories</a> for a component called <code style={styles.code}>Button</code>.
+          See these sample <button style={styles.link} href='#' onClick={this.showApp.bind(this)}>stories</button> for a component called <code style={styles.code}>Button</code>.
         </p>
         <p>
           Just like that, you can add your own components as stories.
           <br />
           Here's how to add your <code style={styles.code}>App</code> component as a story.
-          <div
-            style={styles.codeBlock}
-            dangerouslySetInnerHTML={{__html: `<pre>${codeBlock}</pre>`}}
-          />
         </p>
+        <div
+          style={styles.codeBlock}
+          dangerouslySetInnerHTML={{__html: `<pre>${codeBlock}</pre>`}}
+        />
         <p>
           Usually we create stories with smaller UI components in the app.<br />
-          Have a look at the <a style={styles.link} href="https://getstorybook.io/docs/basics/writing-stories" target="_blank">Writing Stories</a> section in our documentation.
+          Have a look at the <a style={styles.link} href="https://getstorybook.io/docs/basics/writing-stories" target="_blank" rel="noopener noreferrer">Writing Stories</a> section in our documentation.
         </p>
       </div>
     );

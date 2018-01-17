@@ -13,7 +13,8 @@
     "@storybook/addons": "^3.3.9",
     "@storybook/react": "^3.3.9",
     "@storybook/storybook-deployer": "^2.2.0",
-    "babel-core": "^6.26.0"
+    "babel-core": "^6.26.0",
+    "raw-loader": "^0.5.1"
   },
   "dependencies": {
     "grommet": "1.9.0",

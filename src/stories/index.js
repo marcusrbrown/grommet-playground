@@ -1,3 +1,3 @@
 import 'grommet/grommet.min.css';
-import './Welcome';
+import './Playground';
 import './Button';

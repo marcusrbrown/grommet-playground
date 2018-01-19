@@ -3,7 +3,7 @@
 
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
-import Markdown from 'grommet/components/Markdown';
+import Markdown from './Markdown';
 
 const toCodeBlock = (code, type) =>
   [`\`\`\`${type}`, code.trim(), '```'].join('\n');

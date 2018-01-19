@@ -1,6 +1,8 @@
 import React from 'react';
+import loadable from 'loadable-components';
 import { storiesOf } from '@storybook/react';
-import CodeBlock from '../../components/CodeBlock';
+
+const CodeBlock = loadable(() => import('../../components/CodeBlock'));
 
 const testCode = `
 import { Foo } from 'bar';

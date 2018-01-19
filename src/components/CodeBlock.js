@@ -15,7 +15,7 @@ export default class CodeBlock extends Component {
   }
 
   static defaultProps = {
-    type: 'js',
+    type: 'javascript',
   }
 
   render() {

@@ -10,8 +10,8 @@ function loadStories() {
 }
 
 addDecorator(story => (
-  <Article primary pad="large" align="center">
-    <Box pad="large" direction="row" align="center">
+  <Article primary pad="none">
+    <Box pad="large">
       {story()}
     </Box>
   </Article>

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import App from 'grommet/components/App';
+import GrommetApp from 'grommet/components/App';
 import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
 import Title from 'grommet/components/Title';
 import Box from 'grommet/components/Box';
 import Meter from 'grommet/components/Meter';
 
-class Main extends Component {
+class App extends Component {
   render() {
     return (
-      <App>
+      <GrommetApp>
         <Header size="large" justify="between" pad={{horizontal: 'medium'}}>
           <Title>Grommet Standalone</Title>
         </Header>
@@ -19,9 +19,9 @@ class Main extends Component {
         <Footer primary appCentered direction="column" align="center" pad="small" colorIndex="grey-1">
           <p>Build your ideas with <a href="http://grommet.io" target="_blank" rel="noopener noreferrer">Grommet</a>!</p>
         </Footer>
-      </App>
+      </GrommetApp>
     );
   }
 }
 
-export default Main;
+export default App;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import Box from 'grommet/components/Box';
 import Button from 'grommet/components/Button';
 import Apps from 'grommet/components/icons/base/Apps';
 
@@ -50,5 +51,9 @@ const stories = [
 
 stories.forEach(story => {
   storiesOf('Grommet: Button', module)
-    .add(story.title, () => story.render());
+    .add(story.title, () => (
+      <Box align="center" direction="row">
+        {story.render()}
+      </Box>
+    ));
 });

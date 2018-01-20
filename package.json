@@ -33,5 +33,10 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
+  },
+  "storybook-deployer": {
+    "gitUsername": "igetgames",
+    "gitEmail": "me@igetgam.es",
+    "commitMessage": "Deploy Grommet Playground (Storybook) to GitHub Pages."
   }
 }

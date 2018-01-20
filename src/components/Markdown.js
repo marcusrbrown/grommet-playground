@@ -1,8 +1,6 @@
 import React from 'react';
-import loadable from 'loadable-components';
 import GrommetMarkdown from 'grommet/components/Markdown';
-
-const CodeHighlight = loadable(() => import('./CodeHighlight'));
+import { CodeHighlight } from './loadables';
 
 const components = {
   code: {

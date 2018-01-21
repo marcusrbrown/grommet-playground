@@ -6,6 +6,8 @@ This changelog format is based on [Keep a Changelog](http://keepachangelog.com/e
 
 ## [Unreleased]
 
+## [0.1.2][] - 2018-01-20
+
 ### Changed
 
 - Use github-release-from-changelog to create GitHub releases.
@@ -16,5 +18,6 @@ This changelog format is based on [Keep a Changelog](http://keepachangelog.com/e
 
 - Initial release.
 
-[Unreleased]: https://github.com/igetgames/grommet-playground/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/igetgames/grommet-playground/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/igetgames/grommet-playground/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/igetgames/grommet-playground/tree/v0.1.1

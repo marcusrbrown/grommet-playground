@@ -3611,9 +3611,9 @@ git-url-parse@^6.0.2:
   dependencies:
     git-up "^2.0.0"
 
-github-release-from-changelog@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/github-release-from-changelog/-/github-release-from-changelog-1.3.0.tgz#1be63945e6ac3168c4d8784322954da965b9986f"
+github-release-from-changelog@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/github-release-from-changelog/-/github-release-from-changelog-1.3.1.tgz#59055a520b5138b1711dde7498b8e91a6df66c93"
   dependencies:
     grizzly "^2.0.0"
     minimist "^1.2.0"

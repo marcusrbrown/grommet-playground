@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_COLOR: 3
+  NODE_VERSION: 16
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+    - name: Setup Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@5b949b50c3461bbcd5a540b150c368278160234a # tag=v3.4.0
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    - run: yarn install --frozen-lockfile
+    - run: yarn test
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+    - name: Setup Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@5b949b50c3461bbcd5a540b150c368278160234a # tag=v3.4.0
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    - run: yarn install --frozen-lockfile
+    - run: yarn build
+    - run: yarn build-storybook

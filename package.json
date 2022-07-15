@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/igetgames/grommet-playground"
+    "url": "https://github.com/marcusrbrown/grommet-playground"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.9",
@@ -43,8 +43,8 @@
     "gh-release": "env-cmd --fallback ./.env.local github-release-from-changelog"
   },
   "storybook-deployer": {
-    "gitUsername": "igetgames",
-    "gitEmail": "me@igetgam.es",
-    "commitMessage": "Deploy Grommet Playground (Storybook) to GitHub Pages."
+    "gitUsername": "marcusrbrown",
+    "gitEmail": "contact@marcusrbrown.com",
+    "commitMessage": "chore: deploy Grommet Playground to GitHub Pages"
   }
 }

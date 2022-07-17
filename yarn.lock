@@ -4119,6 +4119,11 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+bitbucket-url-from-git@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bitbucket-url-from-git/-/bitbucket-url-from-git-1.0.2.tgz#0cc9e59f2712d6c1ea66b93831bdcf6c8c6731f3"
+  integrity sha512-BbFzr5mqFe1fdGLz+phZSPEaWoBgLeqWnQ7uB0jPl6Ytcj4/c2E9witwa/P91DCgGiTfLBahn56VCOfjQFuSXQ==
+
 bluebird@^3.4.7, bluebird@^3.5.0, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -7074,6 +7079,11 @@ github-release-from-changelog@^2.0.0:
 github-url-from-git@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
+
+giturl@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/giturl/-/giturl-1.0.1.tgz#926c69bda5c48a3d8f74254e99f826835e6a4aa0"
+  integrity sha512-wQourBdI13n8tbjcZTDl6k+ZrCRMU6p9vfp9jknZq+zfWc8xXNztpZFM4XkPHVzHcMSUZxEMYYKZjIGkPlei6Q==
 
 glamor@^2.20.40:
   version "2.20.40"
@@ -13763,7 +13773,7 @@ upath@^0.2.0:
     lodash "3.x"
     underscore.string "2.3.x"
 
-upath@^1.2.0:
+upath@^1.1.0, upath@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
@@ -13908,14 +13918,18 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-version-changelog@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/version-changelog/-/version-changelog-2.1.0.tgz#469f63bd9ffc182f14f2c004df2f3797cef866d4"
+version-changelog@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/version-changelog/-/version-changelog-3.1.1.tgz#5ece74d01825e4f1161c761381610164c48f06de"
+  integrity sha512-ONKT+V0SUsnkxSOc14olG9p/2lheUYMXnEy1w2U79ytxXo5GhCzwnkFDV/zlQpZ2Cl9Ynin60MrS/AccZrEMpQ==
   dependencies:
+    bitbucket-url-from-git "^1.0.0"
     cross-spawn "^4.0.2"
     github-url-from-git "^1.4.0"
+    giturl "^1.0.0"
     has-yarn "^1.0.0"
-    upath "^0.2.0"
+    minimist "^1.2.0"
+    upath "^1.1.0"
 
 vm-browserify@0.0.4:
   version "0.0.4"

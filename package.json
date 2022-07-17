@@ -18,7 +18,7 @@
     "github-release-from-changelog": "^2.0.0",
     "npm-run-all": "^4.1.2",
     "raw-loader": "^4.0.0",
-    "version-changelog": "^2.1.0"
+    "version-changelog": "^3.0.0"
   },
   "dependencies": {
     "babel-core": "^6.26.0",

@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "babel-core": "^6.26.0",
-    "grommet": "1.13.0",
+    "grommet": "2.25.3",
     "highlight.js": "^10.0.0",
     "loadable-components": "^2.0.0",
     "prop-types": "^15.6.0",

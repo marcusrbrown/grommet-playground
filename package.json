@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-core": "6.26.3",
     "grommet": "2.28.0",
+    "grommet-theme-v1": "^0.1.2",
     "highlight.js": "11.7.0",
     "loadable-components": "2.2.3",
     "prop-types": "15.8.1",

@@ -60,5 +60,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "jsxSingleQuote": true,
+    "printWidth": 100,
+    "singleQuote": true
   }
 }

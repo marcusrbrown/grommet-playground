@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
-import hljs from 'highlight.js/lib/highlight';
+import React, {Component} from 'react';
+import hljs from 'highlight.js/lib/core';
+import javascript from 'highlight.js/lib/languages/javascript';
 import 'highlight.js/styles/github.css';
 
 // TODO: Replace this with react-highlight after it supports React 16+.
 // See: https://github.com/akiran/react-highlight/pull/43
 export default class CodeHighlight extends Component {
   highlightCode() {
-    const { className } = this.props;
+    const {className} = this.props;
 
     if (className) {
       const lang = className.replace('lang-', '');
 
-      hljs.registerLanguage(lang, require(`highlight.js/lib/languages/${lang}`));
+      if (lang === 'javascript') {
+        hljs.registerLanguage(lang, javascript);
+      }
     }
 
     // The <code> element is preceded by a <pre> element, so query the <pre>.
@@ -30,13 +33,15 @@ export default class CodeHighlight extends Component {
     this.highlightCode();
   }
 
-  refEl = (el) => this.el = el;
+  refEl = (el) => (this.el = el);
 
   render() {
-    const { className, children } = this.props;
+    const {className, children} = this.props;
 
     return (
-      <code ref={this.refEl} className={className}>{children}</code>
+      <code ref={this.refEl} className={className}>
+        {children}
+      </code>
     );
   }
 }

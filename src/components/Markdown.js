@@ -1,15 +1,15 @@
 import React from 'react';
-import GrommetMarkdown from 'grommet/components/Markdown';
-import { CodeHighlight } from './loadables';
+import {Markdown as GrommetMarkdown} from 'grommet';
+import {CodeHighlight} from './loadables';
 
 const components = {
   code: {
-    component: CodeHighlight
-  }
+    component: CodeHighlight,
+  },
 };
 
-const Markdown = ({ content }) => (
-  <GrommetMarkdown content={content} components={components} />
+const Markdown = ({content}) => (
+  <GrommetMarkdown components={components}>{content}</GrommetMarkdown>
 );
 
 export default Markdown;

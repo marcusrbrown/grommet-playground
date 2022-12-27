@@ -1,25 +1,39 @@
-import React, { Component } from 'react';
-import GrommetApp from 'grommet/components/App';
-import Header from 'grommet/components/Header';
-import Footer from 'grommet/components/Footer';
-import Title from 'grommet/components/Title';
-import Box from 'grommet/components/Box';
-import Meter from 'grommet/components/Meter';
+import React, {Component} from 'react';
+import {Anchor, Box, Grommet, Meter, Text} from 'grommet';
+import {v1} from 'grommet-theme-v1';
 
 class App extends Component {
   render() {
     return (
-      <GrommetApp>
-        <Header size="large" justify="between" pad={{horizontal: 'medium'}}>
-          <Title>Grommet Standalone</Title>
-        </Header>
-        <Box pad="medium">
-          <Meter value={40} />
+      <Grommet full={true} theme={v1}>
+        <Box
+          tag='header'
+          direction='row'
+          align='center'
+          basis='xsmall'
+          flex={false}
+          pad={{horizontal: 'medium'}}
+        >
+          <Box direction='row' align='center'>
+            <Text size='large'>Grommet Standalone</Text>
+          </Box>
         </Box>
-        <Footer primary appCentered direction="column" align="center" pad="small" colorIndex="grey-1">
-          <p>Build your ideas with <a href="http://grommet.io" target="_blank" rel="noopener noreferrer">Grommet</a>!</p>
-        </Footer>
-      </GrommetApp>
+        <Box pad='medium'>
+          <Meter
+            background={{color: 'light-3', opacity: 'medium'}}
+            values={[{color: 'accent-1', value: 40}]}
+          />
+        </Box>
+        <Box tag='footer' direction='column' align='center' pad='small'>
+          <p>
+            Build your ideas with{' '}
+            <Anchor href='https://grommet.io' target='_blank'>
+              Grommet
+            </Anchor>
+            !
+          </p>
+        </Box>
+      </Grommet>
     );
   }
 }

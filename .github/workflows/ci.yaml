@@ -13,7 +13,7 @@ concurrency:
 
 env:
   FORCE_COLOR: 3
-  NODE_VERSION: 16 # renovate: datasource=node depName=node
+  NODE_VERSION: 16.19.0 # renovate: datasource=node depName=node
 
 jobs:
   test:
@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
 
     - name: Cache Yarn packages
-      uses: actions/cache@v3
+      uses: actions/cache@4723a57e26efda3a62cbde1812113b730952852d # v3
       with:
         path: '**/node_modules'
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -47,7 +47,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
 
     - name: Cache Yarn packages
-      uses: actions/cache@v3
+      uses: actions/cache@4723a57e26efda3a62cbde1812113b730952852d # v3
       with:
         path: '**/node_modules'
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}

@@ -1,7 +1,7 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
-import {Box, Button} from 'grommet/components/Box';
+import {Box, Button} from 'grommet';
 import {Apps} from 'grommet-icons';
 
 const commonProps = {

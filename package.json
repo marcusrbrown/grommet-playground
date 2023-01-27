@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "grommet": "2.29.1",
-    "grommet-icons": "4.8.0",
+    "grommet-icons": "4.9.0",
     "grommet-theme-v1": "0.1.2",
     "highlight.js": "11.7.0",
     "loadable-components": "2.2.3",

@@ -1,14 +1,26 @@
 import React from 'react';
-import {addDecorator} from '@storybook/react';
 import {setOptions} from '@storybook/addon-options';
 import {Box} from 'grommet';
 import Package from '../package.json';
 
-addDecorator((story) => (
-  <Box tag='article' basis='auto' pad='none'>
-    <Box pad='large'>{story()}</Box>
-  </Box>
-));
+/** @type {import('@storybook/react').Preview} */
+const preview = {
+  decorators: [
+    (story) => (
+      <Box tag='article' basis='auto' pad='none'>
+        <Box pad='large'>{story()}</Box>
+      </Box>
+    ),
+  ],
+  parameters: {
+    backgrounds: [
+      {name: 'light', value: '#ffffff', default: true},
+      {name: 'dark', value: '#000000'},
+    ],
+  },
+};
+
+export default preview;
 
 setOptions({
   name: `${Package.name} ${Package.version}`,

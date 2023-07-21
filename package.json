@@ -24,7 +24,7 @@
     "version-changelog": "3.1.1"
   },
   "dependencies": {
-    "grommet": "2.33.0",
+    "grommet": "2.33.1",
     "grommet-icons": "4.11.0",
     "grommet-theme-v1": "0.1.2",
     "highlight.js": "11.8.0",

@@ -6720,10 +6720,10 @@ grommet-theme-v1@0.1.2:
   dependencies:
     polished "^2.3.0"
 
-grommet@2.33.2:
-  version "2.33.2"
-  resolved "https://registry.yarnpkg.com/grommet/-/grommet-2.33.2.tgz#c6676c268f2523cfe58104c964d1290f5110cc2a"
-  integrity sha512-nsozn5qZ7Xnf3WHC0hfeQU0dyc7Bxh4PEDqSuuUcRrXzJWKLdSyfiNv3OtHrBajYrcmJDUUgtflVBYaMyWFoUA==
+grommet@2.34.2:
+  version "2.34.2"
+  resolved "https://registry.yarnpkg.com/grommet/-/grommet-2.34.2.tgz#f861fa7a4fcf4b06fcb5c7aafd9c880bd035d9d6"
+  integrity sha512-VzeL/FdbuL7H9hUBFQYz4dQdRLcSqJna+xuCiHFey4Y7gc+eOHpnOuT89zVb2slq+qH/6GYuauF9Qkq47cLYGQ==
   dependencies:
     grommet-icons "^4.10.0"
     hoist-non-react-statics "^3.2.0"

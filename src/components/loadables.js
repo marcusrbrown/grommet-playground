@@ -4,8 +4,4 @@ const CodeBlock = loadable(() => import('./CodeBlock'));
 const CodeHighlight = loadable(() => import('./CodeHighlight'));
 const Markdown = loadable(() => import('./Markdown'));
 
-export {
-  CodeBlock,
-  CodeHighlight,
-  Markdown,
-};
+export {CodeBlock, CodeHighlight, Markdown};

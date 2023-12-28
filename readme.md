@@ -12,4 +12,4 @@ _TODO_.
 
 ## License
 
-Grommet Playground is licensed under the [ISC License](LICENSE.md).
+Grommet Playground is licensed under the [MIT License](LICENSE.md).

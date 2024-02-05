@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   grommet:
-    specifier: 2.34.2
-    version: 2.34.2(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+    specifier: 2.35.0
+    version: 2.35.0(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
   grommet-icons:
     specifier: 4.12.0
     version: 4.12.0(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
@@ -7232,8 +7232,8 @@ packages:
       styled-components: 5.3.11(@babel/core@7.23.6)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
     dev: false
 
-  /grommet@2.34.2(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11):
-    resolution: {integrity: sha512-VzeL/FdbuL7H9hUBFQYz4dQdRLcSqJna+xuCiHFey4Y7gc+eOHpnOuT89zVb2slq+qH/6GYuauF9Qkq47cLYGQ==}
+  /grommet@2.35.0(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11):
+    resolution: {integrity: sha512-5NoYnLGhRXTGa48v+BRohu6oRUr86ZXg+z4QDSpIhXPaqUuCjZ72oSa6/3JBnwqKODuwos9LSovKxt3U/qgSAw==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: ^16.6.1 || ^17.0.0 || ^18.0.0

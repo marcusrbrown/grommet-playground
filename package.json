@@ -20,7 +20,7 @@
     "changelog-verify": "1.1.2",
     "env-cmd": "10.1.0",
     "github-release-from-changelog": "2.1.1",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "5.0.2",
     "storybook": "7.6.15",
     "version-changelog": "3.1.1"
   },

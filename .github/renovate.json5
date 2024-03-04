@@ -1,6 +1,6 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
-  extends: ['github>marcusrbrown/renovate-config#v1.16.1'],
+  extends: ['github>marcusrbrown/renovate-config:archived-repository'],
   packageRules: [
     {
       matchPackageNames: ['styled-components'],
